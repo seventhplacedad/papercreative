@@ -1,0 +1,688 @@
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads ***
+System Info: Java 11 (OpenJDK 64-Bit Server VM 11.0.6+10-post-Ubuntu-1ubuntu118.04.1) Host:  Linux 4.15.0-96-generic (amd64)
+Loading libraries, please wait...
+2020-04-12 21:11:33,921 main WARN Advanced terminal features are not available in this environment
+[21:11:39 INFO]: Starting minecraft server version 1.14.4
+[21:11:39 INFO]: Loading properties
+[21:11:39 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:89) ~[patched_1.14.4.jar:git-Paper-243]
+[21:11:39 INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[21:11:40 INFO]: Debug logging is disabled
+[21:11:40 INFO]: Server Ping Player Sample Count: 12
+[21:11:40 INFO]: Using 4 threads for Netty based IO
+[21:11:40 INFO]: Default game type: CREATIVE
+[21:11:40 INFO]: Generating keypair
+[21:11:40 INFO]: Starting Minecraft server on *:25565
+[21:11:41 INFO]: Using epoll channel type
+[21:11:48 WARN]: Plugin MinecartSpeedPlus v1.13.2 does not specify an api-version.
+[21:11:48 INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[21:11:50 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4133e99c]
+[21:11:50 INFO]: [MinecartSpeedPlus] Loading MinecartSpeedPlus v1.13.2
+[21:11:50 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:11:50 INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[21:11:50 INFO]: WEPIF: Updated config file
+[21:11:50 INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:11:51 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[21:11:51 INFO]: [WorldEdit] Default configuration file written: config.yml
+[21:11:52 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:11:52 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:11:52 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:11:52 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:11:52 INFO]: Preparing level "kevlar"
+[21:11:53 INFO]: Reloading ResourceManager: Default, bukkit
+[21:11:53 INFO]: Loaded 6 recipes
+[21:11:54 INFO]: -------- World Settings For [kevlar] --------
+[21:11:54 INFO]: Experience Merge Radius: 3.0
+[21:11:54 INFO]: Mob Spawn Range: 8
+[21:11:54 INFO]: Cactus Growth Modifier: 100%
+[21:11:54 INFO]: Cane Growth Modifier: 100%
+[21:11:54 INFO]: Melon Growth Modifier: 100%
+[21:11:54 INFO]: Mushroom Growth Modifier: 100%
+[21:11:54 INFO]: Pumpkin Growth Modifier: 100%
+[21:11:54 INFO]: Sapling Growth Modifier: 100%
+[21:11:54 INFO]: Beetroot Growth Modifier: 100%
+[21:11:54 INFO]: Carrot Growth Modifier: 100%
+[21:11:54 INFO]: Potato Growth Modifier: 100%
+[21:11:54 INFO]: Wheat Growth Modifier: 100%
+[21:11:54 INFO]: NetherWart Growth Modifier: 100%
+[21:11:54 INFO]: Vine Growth Modifier: 100%
+[21:11:54 INFO]: Cocoa Growth Modifier: 100%
+[21:11:54 INFO]: Bamboo Growth Modifier: 100%
+[21:11:54 INFO]: SweetBerry Growth Modifier: 100%
+[21:11:54 INFO]: Kelp Growth Modifier: 100%
+[21:11:54 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:11:54 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:11:54 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:11:54 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[21:11:54 INFO]: Max TNT Explosions: 100
+[21:11:54 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:11:54 INFO]: View Distance: 16
+[21:11:54 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:11:54 INFO]: Item Merge Radius: 2.5
+[21:11:54 INFO]: Item Despawn Rate: 6000
+[21:11:54 INFO]: Arrow Despawn Rate: 1200
+[21:11:54 INFO]: Zombie Aggressive Towards Villager: true
+[21:11:54 INFO]: Nerfing mobs spawned from spawners: false
+[21:11:54 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:11:54 INFO]: -------- World Settings For [kevlar_nether] --------
+[21:11:54 INFO]: Experience Merge Radius: 3.0
+[21:11:54 INFO]: Mob Spawn Range: 8
+[21:11:54 INFO]: Cactus Growth Modifier: 100%
+[21:11:54 INFO]: Cane Growth Modifier: 100%
+[21:11:54 INFO]: Melon Growth Modifier: 100%
+[21:11:54 INFO]: Mushroom Growth Modifier: 100%
+[21:11:54 INFO]: Pumpkin Growth Modifier: 100%
+[21:11:54 INFO]: Sapling Growth Modifier: 100%
+[21:11:54 INFO]: Beetroot Growth Modifier: 100%
+[21:11:54 INFO]: Carrot Growth Modifier: 100%
+[21:11:54 INFO]: Potato Growth Modifier: 100%
+[21:11:54 INFO]: Wheat Growth Modifier: 100%
+[21:11:54 INFO]: NetherWart Growth Modifier: 100%
+[21:11:54 INFO]: Vine Growth Modifier: 100%
+[21:11:54 INFO]: Cocoa Growth Modifier: 100%
+[21:11:54 INFO]: Bamboo Growth Modifier: 100%
+[21:11:54 INFO]: SweetBerry Growth Modifier: 100%
+[21:11:54 INFO]: Kelp Growth Modifier: 100%
+[21:11:54 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:11:54 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:11:54 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:11:54 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[21:11:54 INFO]: Max TNT Explosions: 100
+[21:11:54 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:11:54 INFO]: View Distance: 16
+[21:11:54 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:11:54 INFO]: Item Merge Radius: 2.5
+[21:11:54 INFO]: Item Despawn Rate: 6000
+[21:11:54 INFO]: Arrow Despawn Rate: 1200
+[21:11:54 INFO]: Zombie Aggressive Towards Villager: true
+[21:11:54 INFO]: Nerfing mobs spawned from spawners: false
+[21:11:54 INFO]: -------- World Settings For [kevlar_the_end] --------
+[21:11:54 INFO]: Experience Merge Radius: 3.0
+[21:11:54 INFO]: Mob Spawn Range: 8
+[21:11:54 INFO]: Cactus Growth Modifier: 100%
+[21:11:54 INFO]: Cane Growth Modifier: 100%
+[21:11:54 INFO]: Melon Growth Modifier: 100%
+[21:11:54 INFO]: Mushroom Growth Modifier: 100%
+[21:11:54 INFO]: Pumpkin Growth Modifier: 100%
+[21:11:54 INFO]: Sapling Growth Modifier: 100%
+[21:11:54 INFO]: Beetroot Growth Modifier: 100%
+[21:11:54 INFO]: Carrot Growth Modifier: 100%
+[21:11:54 INFO]: Potato Growth Modifier: 100%
+[21:11:54 INFO]: Wheat Growth Modifier: 100%
+[21:11:54 INFO]: NetherWart Growth Modifier: 100%
+[21:11:54 INFO]: Vine Growth Modifier: 100%
+[21:11:54 INFO]: Cocoa Growth Modifier: 100%
+[21:11:54 INFO]: Bamboo Growth Modifier: 100%
+[21:11:54 INFO]: SweetBerry Growth Modifier: 100%
+[21:11:54 INFO]: Kelp Growth Modifier: 100%
+[21:11:54 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[21:11:54 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:11:54 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:11:54 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[21:11:54 INFO]: Max TNT Explosions: 100
+[21:11:54 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:11:54 INFO]: View Distance: 16
+[21:11:54 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:11:54 INFO]: Item Merge Radius: 2.5
+[21:11:54 INFO]: Item Despawn Rate: 6000
+[21:11:54 INFO]: Arrow Despawn Rate: 1200
+[21:11:54 INFO]: Zombie Aggressive Towards Villager: true
+[21:11:54 INFO]: Nerfing mobs spawned from spawners: false
+[21:11:54 INFO]: Preparing start region for dimension 'kevlar'/minecraft:overworld
+[21:11:54 INFO]: Preparing spawn area: 0%
+[21:11:54 INFO]: Preparing spawn area: 1%
+[21:11:55 INFO]: Preparing spawn area: 15%
+[21:11:55 INFO]: Preparing spawn area: 81%
+[21:11:57 INFO]: Preparing spawn area: 100%
+[21:11:57 INFO]: Preparing spawn area: 100%
+[21:11:57 INFO]: Preparing spawn area: 100%
+[21:11:57 INFO]: Preparing spawn area: 100%
+[21:11:59 INFO]: Preparing spawn area: 100%
+[21:11:59 INFO]: Preparing spawn area: 100%
+[21:11:59 INFO]: Preparing spawn area: 100%
+[21:12:00 INFO]: Preparing spawn area: 100%
+[21:12:00 INFO]: Preparing spawn area: 100%
+[21:12:01 INFO]: Preparing spawn area: 100%
+[21:12:01 INFO]: Preparing spawn area: 100%
+[21:12:02 INFO]: Preparing spawn area: 100%
+[21:12:02 INFO]: Preparing spawn area: 100%
+[21:12:02 INFO]: Preparing spawn area: 100%
+[21:12:03 INFO]: Loaded 441 spawn chunks for world kevlar
+[21:12:03 INFO]: Time elapsed: 8776 ms
+[21:12:03 INFO]: Preparing start region for dimension 'kevlar_nether'/minecraft:the_nether
+[21:12:03 INFO]: Preparing spawn area: 0%
+[21:12:03 INFO]: Preparing spawn area: 100%
+[21:12:04 INFO]: Preparing spawn area: 100%
+[21:12:04 INFO]: Preparing spawn area: 100%
+[21:12:05 INFO]: Preparing spawn area: 100%
+[21:12:05 INFO]: Preparing spawn area: 100%
+[21:12:06 INFO]: Preparing spawn area: 100%
+[21:12:06 INFO]: Preparing spawn area: 100%
+[21:12:07 INFO]: Preparing spawn area: 100%
+[21:12:07 INFO]: Loaded 441 spawn chunks for world kevlar_nether
+[21:12:07 INFO]: Time elapsed: 4184 ms
+[21:12:07 INFO]: Preparing start region for dimension 'kevlar_the_end'/minecraft:the_end
+[21:12:07 INFO]: Preparing spawn area: 0%
+[21:12:07 INFO]: Preparing spawn area: 100%
+[21:12:08 INFO]: Loaded 441 spawn chunks for world kevlar_the_end
+[21:12:08 INFO]: Time elapsed: 890 ms
+[21:12:08 INFO]: [MinecartSpeedPlus] Enabling MinecartSpeedPlus v1.13.2*
+[21:12:08 INFO]: MinecartSpeedPlus version 1.13.2 started.
+[21:12:08 INFO]: Done (15.496s)! For help, type "help"
+[21:12:08 INFO]: Timings Reset
+[21:34:12 INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[21:34:13 INFO]: Kevlar[/127.0.0.1:55918] logged in with entity id 234 at ([kevlar]286.1932596997422, 101.35679936252117, 563.4471661062892)
+[21:34:18 INFO]: Kevlar lost connection: Disconnected
+[21:34:18 INFO]: Kevlar left the game
+[21:34:43 INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[21:34:43 INFO]: Kevlar[/127.0.0.1:55928] logged in with entity id 333 at ([kevlar]288.0674830675098, 74.28309731723367, 557.8934443355777)
+[21:35:20 INFO]: Kevlar issued server command: //wand
+[21:35:25 INFO]: Kevlar issued server command: /claer
+[21:35:26 INFO]: Kevlar issued server command: /clear
+[21:37:46 INFO]: UUID of player MASHTHEKEYBOARD is f4739e5b-c342-32fb-a61f-7842055a8b09
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:58 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:269 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:270 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:271 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:280 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:300 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:301 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:268 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:298 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:5 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:299 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what EntityHorse is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:17 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:39 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:58 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:18 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:175 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:143 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:162 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:102 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:3 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:1 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:161 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:20 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:31 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:95 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:35 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:5 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:324 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:328 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:164 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:162 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:163 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:323 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:321 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:171 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:172 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:170 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:80 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:85 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:86 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:84 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:89 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:87 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:159 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:154 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:272 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:152 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:158 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:155 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:397 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:276 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:156 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:160 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:70 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:72 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:73 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:79 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:76 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:77 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:269 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:148 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:69 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:143 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:385 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:383 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:146 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:267 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:389 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:145 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:270 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:271 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:390 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:61 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:67 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:65 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:66 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:139 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:379 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:58 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:259 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:138 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:135 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:257 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:134 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:3 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:4 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:1 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:380 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:2258 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:381 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:53 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:50 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:7 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:56 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:57 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:5 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:54 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:6 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:128 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:49 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:129 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:126 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:47 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:48 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:120 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:121 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:123 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:41 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:42 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:45 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:46 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:44 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:38 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:116 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:37 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:351 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:110 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:355 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:113 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:114 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:112 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:354 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:30 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:35 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:33 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:27 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:106 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:28 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:107 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:29 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:108 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:109 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:102 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:101 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:20 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:23 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:24 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:21 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:22 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:17 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:14 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:18 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:175 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:330 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:174 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:331 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:96 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:97 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:95 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:13 is
+[21:37:47 WARN]: Invalid statistic in ./kevlar/stats/f4739e5b-c342-32fb-a61f-7842055a8b09.json: Don't know what minecraft:98 is
+[21:37:48 INFO]: MASHTHEKEYBOARD[/127.0.0.1:56056] logged in with entity id 633 at ([kevlar]402.8230576548452, 69.0, 558.2355523945278)
+[21:38:26 INFO]: UUID of player MickeyAndPluto is 62738b54-f1dd-3357-976f-6f4c3053b306
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:270 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:272 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:298 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:58 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:357 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:309 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:297 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:393 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:361 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:350 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:366 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:300 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:377 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:364 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:320 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:298 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:265 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:299 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:270 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:291 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:280 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:5 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what EntityHorse is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:17 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:107 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:138 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:127 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:18 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:3 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:4 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:161 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:85 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:86 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:31 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:50 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:95 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:35 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:5 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:76 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:54 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:324 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:328 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:164 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:163 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:323 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:287 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:321 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:292 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:171 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:293 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:291 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:170 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:80 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:85 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:86 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:84 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:89 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:87 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:159 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:154 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:275 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:272 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:152 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:155 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:276 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:156 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:160 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:70 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:72 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:76 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:77 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:69 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2260 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2265 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2266 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:143 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2267 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:383 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:267 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:389 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:145 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:270 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:391 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:392 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:390 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:61 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:67 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:65 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:66 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:137 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:58 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:259 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:138 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:130 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2257 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:135 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:136 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:3 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:4 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:1 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2258 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:381 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:2259 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:53 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:50 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:5 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:54 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:6 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:49 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:404 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:126 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:47 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:48 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:120 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:362 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:361 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:123 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:41 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:42 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:45 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:44 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:116 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:351 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:355 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:113 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:356 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:114 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:112 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:354 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:30 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:35 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:27 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:107 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:29 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:108 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:109 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:102 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:101 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:20 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:24 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:17 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:14 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:18 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:175 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:330 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:294 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:174 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:295 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:331 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:96 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:97 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:95 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:12 is
+[21:38:26 WARN]: Invalid statistic in ./kevlar/stats/62738b54-f1dd-3357-976f-6f4c3053b306.json: Don't know what minecraft:98 is
+[21:38:27 INFO]: MickeyAndPluto[/127.0.0.1:56066] logged in with entity id 970 at ([kevlar]107.18914312221231, 83.62662720616424, 576.6865147482013)
+[21:39:03 INFO]: Kevlar issued server command: /op mick
+[21:39:06 INFO]: Kevlar issued server command: /op MickeyAndPluto
+[21:39:09 INFO]: MASHTHEKEYBOARD issued server command: /warp citycenter
+[21:39:12 INFO]: Kevlar issued server command: /op MASHTHEKEYBOARD
+[21:42:57 INFO]: MickeyAndPluto issued server command: /msg MASHTHEKEYBOARD elite?
+[21:48:11 INFO]: Kevlar lost connection: Disconnected
+[21:48:11 INFO]: Kevlar left the game
+[21:48:13 INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[21:48:13 INFO]: Kevlar[/127.0.0.1:56216] logged in with entity id 2795 at ([kevlar]110.21839971599053, 38.0, 600.5125777393406)
+[21:49:03 INFO]: Kevlar issued server command: //wand
+[21:49:09 INFO]: <Kevlar> who is this
+[21:49:18 INFO]: Kevlar issued server command: /expand 10
+[21:49:23 INFO]: Kevlar issued server command: //expand 10
+[21:49:24 INFO]: Kevlar issued server command: /set air
+[21:49:27 INFO]: Kevlar issued server command: /set stone
+[21:49:29 INFO]: Kevlar issued server command: //set stone
+[21:51:47 INFO]: <Kevlar> 43
+[21:51:59 INFO]: Kevlar issued server command: /expand 150
+[21:52:04 INFO]: Kevlar issued server command: //expand 150
+[21:52:05 INFO]: Kevlar issued server command: /set air
+[21:52:08 INFO]: Kevlar issued server command: //set air
+[21:54:22 INFO]: UUID of player CrunchyCaffine is 22cdf969-3cde-38b5-bf42-29f1712cf7e7
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:259 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:128 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:47 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:126 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:324 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:48 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:328 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:164 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:323 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:287 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:123 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:321 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:171 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:82 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:85 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:42 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:45 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:89 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:46 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:87 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:44 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:88 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:159 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:351 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:152 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:113 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:157 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:356 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:114 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:155 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:276 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:397 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:112 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:156 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:160 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:70 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:30 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:35 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:76 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:77 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:33 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:27 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:106 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:28 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:107 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:69 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:29 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:109 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:102 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:146 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:389 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:101 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:145 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:20 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:67 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:23 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:24 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:65 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:66 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:22 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:139 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:58 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:138 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:259 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:175 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:131 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:330 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:135 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:136 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:331 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:134 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:3 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:4 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:1 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:53 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:50 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:95 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:54 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:98 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:5 is
+[21:54:22 WARN]: Invalid statistic in ./kevlar/stats/22cdf969-3cde-38b5-bf42-29f1712cf7e7.json: Don't know what minecraft:6 is
+[21:54:22 INFO]: CrunchyCaffine[/127.0.0.1:56292] logged in with entity id 3345 at ([kevlar]321.41012444380584, 67.40596061970224, 571.2520076388284)
+[21:54:26 INFO]: Kevlar issued server command: /op CrunchyCaffine
+[21:54:32 INFO]: Kevlar issued server command: /tp CrunchyCaffine Kevlar
+[21:55:33 INFO]: Kevlar issued server command: /set air
+[21:55:36 INFO]: Kevlar issued server command: //set air
+[21:55:54 INFO]: MickeyAndPluto issued server command: /msg MASHTHEKEYBOARD elite
+[21:56:08 INFO]: MASHTHEKEYBOARD issued server command: /help
+[21:56:32 INFO]: MASHTHEKEYBOARD issued server command: /minecraft
+[21:56:37 INFO]: <MASHTHEKEYBOARD> minecraft
+[21:56:47 INFO]: Kevlar issued server command: /expand 50
+[21:56:50 INFO]: Kevlar issued server command: //expand 50
+[21:56:52 INFO]: Kevlar issued server command: /set air
+[21:56:57 INFO]: MickeyAndPluto issued server command: /msg MASHTHEKEYBOARD this sucks though
+[21:57:00 INFO]: Kevlar issued server command: //expand 50
+[21:57:02 INFO]: Kevlar issued server command: //set air
+[21:57:06 INFO]: MASHTHEKEYBOARD lost connection: Disconnected
+[21:57:06 INFO]: MASHTHEKEYBOARD left the game
+[21:58:41 INFO]: Kevlar issued server command: //expand 50
+[21:58:45 INFO]: Kevlar issued server command: //set air
+[21:59:14 INFO]: Kevlar issued server command: /expand 30
+[21:59:17 INFO]: Kevlar issued server command: //expand 30
+[21:59:20 INFO]: Kevlar issued server command: //set air
+[21:59:26 INFO]: Kevlar issued server command: //set stone
+[21:59:39 INFO]: MickeyAndPluto lost connection: Disconnected
+[21:59:39 INFO]: MickeyAndPluto left the game
+[22:05:09 INFO]: Kevlar issued server command: //expand 5
+[22:05:10 INFO]: Kevlar issued server command: /set air
+[22:05:11 INFO]: Kevlar issued server command: //set air
+[22:08:48 INFO]: Kevlar issued server command: //set poweredrail
+[22:08:57 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:09:12 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:10:08 INFO]: CrunchyCaffine lost connection: Disconnected
+[22:10:08 INFO]: CrunchyCaffine left the game
+[22:12:08 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:12:29 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:14:59 INFO]: UUID of player CrunchyCaffine is 22cdf969-3cde-38b5-bf42-29f1712cf7e7
+[22:14:59 INFO]: CrunchyCaffine[/127.0.0.1:56588] logged in with entity id 4206 at ([kevlar]185.2077826085021, 66.71228571654628, 589.1164383772125)
+[22:17:20 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:18:13 INFO]: CrunchyCaffine lost connection: Disconnected
+[22:18:13 INFO]: CrunchyCaffine left the game
+[22:20:57 INFO]: Kevlar issued server command: /give sign
+[22:21:03 INFO]: Kevlar issued server command: /give kevlar sign
+[22:21:05 INFO]: Kevlar issued server command: /give kevlar sign 1
+[22:21:15 INFO]: Kevlar issued server command: /give kevlar minecraft:sign
+[22:21:22 INFO]: Kevlar issued server command: /give kevlar minecraft:oak_sign 1
+[22:22:15 INFO]: UUID of player CrunchyCaffine is 22cdf969-3cde-38b5-bf42-29f1712cf7e7
+[22:22:16 INFO]: CrunchyCaffine[/127.0.0.1:56668] logged in with entity id 4798 at ([kevlar]199.3065143737415, 64.52190328525602, 587.4719960671057)
+[22:24:18 INFO]: Kevlar issued server command: /tp CrunchyCaffine Kevlar
+[22:24:36 INFO]: <Kevlar> .//thru
+[22:26:24 WARN]: CrunchyCaffine moved too quickly! -13.208106137377257,0.0,3.0763559521848265
+[22:26:54 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:27:54 INFO]: Kevlar issued server command: //set minecraft:powered_rail
+[22:42:31 INFO]: Kevlar issued server command: /clear
+[22:47:25 WARN]: CrunchyCaffine moved too quickly! -20.6635910298113,0.0,-11.004199208952002
+[22:47:38 INFO]: Kevlar issued server command: /ckear
+[22:47:40 INFO]: Kevlar issued server command: /clear
+[22:47:59 INFO]: Kevlar issued server command: /tp CrunchyCaffine
+[22:48:03 INFO]: Kevlar issued server command: /time set day
+[22:52:12 INFO]: <Kevlar> ./tp kevlar
+[22:52:13 INFO]: CrunchyCaffine issued server command: /weather
+[22:52:21 INFO]: CrunchyCaffine issued server command: /killall
+[22:52:24 INFO]: CrunchyCaffine issued server command: /kill
+[22:53:14 INFO]: Kevlar lost connection: Disconnected
+[22:53:14 INFO]: Kevlar left the game
+[22:53:20 INFO]: CrunchyCaffine lost connection: Disconnected
+[22:53:20 INFO]: CrunchyCaffine left the game
+[22:53:25 INFO]: Stopping server
+[22:53:25 INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:53:25 INFO]: Saving players
+[22:53:25 INFO]: Saving worlds
+[22:53:25 INFO]: Saving chunks for level 'kevlar'/minecraft:overworld
+[22:53:25 WARN]: Exception in thread "Thread-1" java.lang.IllegalStateException: WorldSaveEvent may only be triggered synchronously.
+[22:53:25 WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533)
+[22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.WorldServer.save(WorldServer.java:916)
+[22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.saveChunks(MinecraftServer.java:688)
+[22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:759)
+[22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
+[22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
+[22:53:25 WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
