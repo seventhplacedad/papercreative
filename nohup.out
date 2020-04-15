@@ -686,3 +686,348 @@ java.io.IOException: Bad file descriptor
 [22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
 [22:53:25 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
 [22:53:25 WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads ***
+System Info: Java 1.8 (OpenJDK 64-Bit Server VM 25.242-b08) Host:  Linux 4.15.0-96-generic (amd64)
+Loading libraries, please wait...
+2020-04-13 06:05:45,615 main WARN Advanced terminal features are not available in this environment
+[06:05:50 INFO]: Starting minecraft server version 1.14.4
+[06:05:50 INFO]: Loading properties
+[06:05:50 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_242]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_242]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_242]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_242]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_242]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_242]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_242]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_242]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_242]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:89) ~[patched_1.14.4.jar:git-Paper-243]
+[06:05:50 INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[06:05:51 INFO]: Server Ping Player Sample Count: 12
+[06:05:51 INFO]: Using 4 threads for Netty based IO
+[06:05:51 INFO]: Debug logging is disabled
+[06:05:51 INFO]: Default game type: CREATIVE
+[06:05:51 INFO]: Generating keypair
+[06:05:51 INFO]: Starting Minecraft server on *:25565
+[06:05:51 INFO]: Using epoll channel type
+[06:05:55 WARN]: Plugin MinecartSpeedPlus v1.13.2 does not specify an api-version.
+[06:05:55 INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[06:05:57 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@286f94e]
+[06:05:57 INFO]: [MinecartSpeedPlus] Loading MinecartSpeedPlus v1.13.2
+[06:05:57 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:05:57 INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[06:05:57 INFO]: WEPIF: Using the Bukkit Permissions API.
+[06:05:57 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[06:05:59 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:05:59 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:05:59 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:05:59 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:05:59 INFO]: Preparing level "kevlar"
+[06:05:59 INFO]: Reloading ResourceManager: Default, bukkit
+[06:06:09 INFO]: Loaded 6 recipes
+[06:06:09 INFO]: -------- World Settings For [kevlar] --------
+[06:06:09 INFO]: Cactus Growth Modifier: 100%
+[06:06:09 INFO]: Cane Growth Modifier: 100%
+[06:06:09 INFO]: Melon Growth Modifier: 100%
+[06:06:09 INFO]: Mushroom Growth Modifier: 100%
+[06:06:09 INFO]: Pumpkin Growth Modifier: 100%
+[06:06:09 INFO]: Sapling Growth Modifier: 100%
+[06:06:09 INFO]: Beetroot Growth Modifier: 100%
+[06:06:09 INFO]: Carrot Growth Modifier: 100%
+[06:06:09 INFO]: Potato Growth Modifier: 100%
+[06:06:09 INFO]: Wheat Growth Modifier: 100%
+[06:06:09 INFO]: NetherWart Growth Modifier: 100%
+[06:06:09 INFO]: Vine Growth Modifier: 100%
+[06:06:09 INFO]: Cocoa Growth Modifier: 100%
+[06:06:09 INFO]: Bamboo Growth Modifier: 100%
+[06:06:09 INFO]: SweetBerry Growth Modifier: 100%
+[06:06:09 INFO]: Kelp Growth Modifier: 100%
+[06:06:09 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[06:06:09 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:06:09 INFO]: Mob Spawn Range: 8
+[06:06:09 INFO]: Experience Merge Radius: 3.0
+[06:06:09 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:06:09 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[06:06:09 INFO]: Max TNT Explosions: 100
+[06:06:09 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:06:09 INFO]: View Distance: 12
+[06:06:09 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:06:09 INFO]: Item Despawn Rate: 6000
+[06:06:09 INFO]: Item Merge Radius: 2.5
+[06:06:09 INFO]: Arrow Despawn Rate: 1200
+[06:06:09 INFO]: Zombie Aggressive Towards Villager: true
+[06:06:09 INFO]: Nerfing mobs spawned from spawners: false
+[06:06:10 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:06:10 INFO]: -------- World Settings For [kevlar_nether] --------
+[06:06:10 INFO]: Cactus Growth Modifier: 100%
+[06:06:10 INFO]: Cane Growth Modifier: 100%
+[06:06:10 INFO]: Melon Growth Modifier: 100%
+[06:06:10 INFO]: Mushroom Growth Modifier: 100%
+[06:06:10 INFO]: Pumpkin Growth Modifier: 100%
+[06:06:10 INFO]: Sapling Growth Modifier: 100%
+[06:06:10 INFO]: Beetroot Growth Modifier: 100%
+[06:06:10 INFO]: Carrot Growth Modifier: 100%
+[06:06:10 INFO]: Potato Growth Modifier: 100%
+[06:06:10 INFO]: Wheat Growth Modifier: 100%
+[06:06:10 INFO]: NetherWart Growth Modifier: 100%
+[06:06:10 INFO]: Vine Growth Modifier: 100%
+[06:06:10 INFO]: Cocoa Growth Modifier: 100%
+[06:06:10 INFO]: Bamboo Growth Modifier: 100%
+[06:06:10 INFO]: SweetBerry Growth Modifier: 100%
+[06:06:10 INFO]: Kelp Growth Modifier: 100%
+[06:06:10 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[06:06:10 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:06:10 INFO]: Mob Spawn Range: 8
+[06:06:10 INFO]: Experience Merge Radius: 3.0
+[06:06:10 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:06:10 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[06:06:10 INFO]: Max TNT Explosions: 100
+[06:06:10 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:06:10 INFO]: View Distance: 12
+[06:06:10 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:06:10 INFO]: Item Despawn Rate: 6000
+[06:06:10 INFO]: Item Merge Radius: 2.5
+[06:06:10 INFO]: Arrow Despawn Rate: 1200
+[06:06:10 INFO]: Zombie Aggressive Towards Villager: true
+[06:06:10 INFO]: Nerfing mobs spawned from spawners: false
+[06:06:10 INFO]: -------- World Settings For [kevlar_the_end] --------
+[06:06:10 INFO]: Cactus Growth Modifier: 100%
+[06:06:10 INFO]: Cane Growth Modifier: 100%
+[06:06:10 INFO]: Melon Growth Modifier: 100%
+[06:06:10 INFO]: Mushroom Growth Modifier: 100%
+[06:06:10 INFO]: Pumpkin Growth Modifier: 100%
+[06:06:10 INFO]: Sapling Growth Modifier: 100%
+[06:06:10 INFO]: Beetroot Growth Modifier: 100%
+[06:06:10 INFO]: Carrot Growth Modifier: 100%
+[06:06:10 INFO]: Potato Growth Modifier: 100%
+[06:06:10 INFO]: Wheat Growth Modifier: 100%
+[06:06:10 INFO]: NetherWart Growth Modifier: 100%
+[06:06:10 INFO]: Vine Growth Modifier: 100%
+[06:06:10 INFO]: Cocoa Growth Modifier: 100%
+[06:06:10 INFO]: Bamboo Growth Modifier: 100%
+[06:06:10 INFO]: SweetBerry Growth Modifier: 100%
+[06:06:10 INFO]: Kelp Growth Modifier: 100%
+[06:06:10 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[06:06:10 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[06:06:10 INFO]: Mob Spawn Range: 8
+[06:06:10 INFO]: Experience Merge Radius: 3.0
+[06:06:10 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[06:06:10 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[06:06:10 INFO]: Max TNT Explosions: 100
+[06:06:10 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:06:10 INFO]: View Distance: 12
+[06:06:10 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:06:10 INFO]: Item Despawn Rate: 6000
+[06:06:10 INFO]: Item Merge Radius: 2.5
+[06:06:10 INFO]: Arrow Despawn Rate: 1200
+[06:06:10 INFO]: Zombie Aggressive Towards Villager: true
+[06:06:10 INFO]: Nerfing mobs spawned from spawners: false
+[06:06:10 INFO]: Preparing start region for dimension 'kevlar'/minecraft:overworld
+[06:06:10 INFO]: Preparing spawn area: 0%
+[06:06:10 INFO]: Preparing spawn area: 0%
+[06:06:11 INFO]: Preparing spawn area: 40%
+[06:06:11 INFO]: Preparing spawn area: 40%
+[06:06:12 INFO]: Preparing spawn area: 87%
+[06:06:12 INFO]: Preparing spawn area: 100%
+[06:06:14 INFO]: Preparing spawn area: 100%
+[06:06:14 INFO]: Preparing spawn area: 100%
+[06:06:14 INFO]: Preparing spawn area: 100%
+[06:06:15 INFO]: Preparing spawn area: 100%
+[06:06:15 INFO]: Preparing spawn area: 100%
+[06:06:15 INFO]: Preparing spawn area: 100%
+[06:06:16 INFO]: Preparing spawn area: 100%
+[06:06:16 INFO]: Loaded 441 spawn chunks for world kevlar
+[06:06:16 INFO]: Time elapsed: 6142 ms
+[06:06:16 INFO]: Preparing start region for dimension 'kevlar_nether'/minecraft:the_nether
+[06:06:16 INFO]: Preparing spawn area: 0%
+[06:06:17 INFO]: Preparing spawn area: 15%
+[06:06:17 INFO]: Preparing spawn area: 28%
+[06:06:17 INFO]: Preparing spawn area: 48%
+[06:06:18 INFO]: Preparing spawn area: 100%
+[06:06:18 INFO]: Preparing spawn area: 100%
+[06:06:19 INFO]: Preparing spawn area: 100%
+[06:06:20 INFO]: Preparing spawn area: 100%
+[06:06:20 INFO]: Preparing spawn area: 100%
+[06:06:21 INFO]: Preparing spawn area: 100%
+[06:06:21 INFO]: Preparing spawn area: 100%
+[06:06:21 INFO]: Preparing spawn area: 100%
+[06:06:22 INFO]: Preparing spawn area: 100%
+[06:06:22 INFO]: Loaded 441 spawn chunks for world kevlar_nether
+[06:06:22 INFO]: Time elapsed: 6120 ms
+[06:06:22 INFO]: Preparing start region for dimension 'kevlar_the_end'/minecraft:the_end
+[06:06:22 INFO]: Preparing spawn area: 0%
+[06:06:23 INFO]: Preparing spawn area: 100%
+[06:06:23 INFO]: Loaded 441 spawn chunks for world kevlar_the_end
+[06:06:23 INFO]: Time elapsed: 807 ms
+[06:06:23 INFO]: [MinecartSpeedPlus] Enabling MinecartSpeedPlus v1.13.2*
+[06:06:23 INFO]: MinecartSpeedPlus version 1.13.2 started.
+[06:06:23 INFO]: Done (23.959s)! For help, type "help"
+[06:06:23 INFO]: Timings Reset
+[19:03:03 INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:351 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:300 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:301 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:298 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:299 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what EntityHorse is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:95 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:324 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:328 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:164 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:162 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:163 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:323 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:321 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:171 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:293 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:82 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:170 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:291 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:85 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:84 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:89 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:87 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:159 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:154 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:152 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:276 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:155 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:397 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:156 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:160 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:70 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:161 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:72 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:78 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:79 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:76 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:77 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:148 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:69 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:143 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:383 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:146 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:389 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:147 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:420 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:145 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:391 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:271 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:392 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:390 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:61 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:65 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:66 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:139 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:58 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:259 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:138 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:135 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:136 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:134 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:3 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:4 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:1 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:380 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:53 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:50 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:56 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:57 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:5 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:54 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:6 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:49 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:129 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:404 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:126 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:47 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:48 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:120 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:123 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:41 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:42 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:45 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:44 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:38 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:116 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:37 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:351 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:110 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:113 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:355 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:356 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:114 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:112 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:30 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:31 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:35 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:27 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:106 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:107 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:25 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:108 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:109 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:102 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:101 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:20 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:23 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:24 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:17 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:18 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:175 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:330 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:295 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:331 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:96 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:97 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:95 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:12 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:13 is
+[19:03:03 WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:98 is
+[19:03:04 INFO]: s_mitty[/127.0.0.1:53988] logged in with entity id 260 at ([kevlar]-267.4519140192597, 64.8482324626151, 435.79084123307126)
+[19:03:30 INFO]: s_mitty issued server command: /warp citycenter
+[19:03:32 INFO]: s_mitty issued server command: /op
+[19:04:10 INFO]: s_mitty issued server command: /help
+[19:06:59 INFO]: s_mitty lost connection: Disconnected
+[19:06:59 INFO]: s_mitty left the game
+[05:42:48 INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[05:42:48 INFO]: Kevlar[/127.0.0.1:53678] logged in with entity id 1290 at ([kevlar]-99.4767025068448, 68.0, 652.8314569726607)
+[05:43:24 INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[05:43:24 INFO]: s_mitty[/127.0.0.1:53688] logged in with entity id 1577 at ([kevlar]-153.69999998807907, 63.278020359769975, 522.8607186857774)
+[05:43:28 INFO]: Kevlar issued server command: /op s_mitty
+[05:43:31 INFO]: Kevlar issued server command: /op s_mitty
+[05:43:38 INFO]: s_mitty issued server command: /time set day
+[05:44:24 INFO]: s_mitty issued server command: /tp kevlar
+[05:44:52 INFO]: s_mitty issued server command: /tp kevlar
+[05:45:33 INFO]: Kevlar issued server command: /j
+[05:46:08 INFO]: Kevlar issued server command: /j
+[05:46:21 INFO]: s_mitty issued server command: /tp kevlar
+[05:46:59 INFO]: Kevlar issued server command: /j
+[05:47:00 INFO]: Kevlar issued server command: /thru
+[05:49:04 INFO]: Kevlar issued server command: /tp sm
+[05:49:10 INFO]: Kevlar issued server command: /tp s_mitty
+[05:49:24 INFO]: Kevlar issued server command: /warp
+[05:49:30 INFO]: Kevlar issued server command: /back
+[05:53:57 INFO]: Kevlar lost connection: Disconnected
+[05:53:57 INFO]: Stopping server
+[05:53:57 INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:53:57 INFO]: Saving players
+[05:53:57 INFO]: Kevlar left the game
+[05:53:57 INFO]: s_mitty lost connection: Disconnected
+[05:53:57 INFO]: s_mitty left the game
+[05:53:57 INFO]: Saving worlds
+[05:53:57 INFO]: Saving chunks for level 'kevlar'/minecraft:overworld
+[05:53:57 WARN]: Exception in thread "Thread-2" java.lang.IllegalStateException: WorldSaveEvent may only be triggered synchronously.
+[05:53:57 WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533)
+[05:53:57 WARN]: 	at net.minecraft.server.v1_14_R1.WorldServer.save(WorldServer.java:916)
+[05:53:57 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.saveChunks(MinecraftServer.java:688)
+[05:53:57 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:759)
+[05:53:57 WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
+[05:53:57 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
