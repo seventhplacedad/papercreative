@@ -1,0 +1,20 @@
+lastAccountName: Kevlar
+timestamps:
+  login: 1586930346370
+  lastteleport: 1586930365827
+  logout: 1586930581788
+ipAddress: 127.0.0.1
+lastlocation:
+  world: kevlar
+  x: -313.51616912863295
+  y: 58.0
+  z: 438.69999998807907
+  yaw: 55.782257
+  pitch: 69.44987
+logoutlocation:
+  world: kevlar
+  x: 54.3949829281962
+  y: 145.45184661329418
+  z: 274.0994146094162
+  yaw: 42.155243
+  pitch: 40.95117

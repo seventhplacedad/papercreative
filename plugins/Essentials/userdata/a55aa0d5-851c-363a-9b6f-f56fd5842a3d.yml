@@ -1,0 +1,21 @@
+lastAccountName: s_mitty
+timestamps:
+  login: 1587865827182
+  logout: 1587866399736
+  lastteleport: 1587693673339
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: kevlar
+  x: -230.2652237549151
+  y: 122.76128184037958
+  z: 868.4264904177604
+  yaw: 203.51123
+  pitch: 23.84989
+lastlocation:
+  world: kevlar
+  x: 960.441779242061
+  y: 126.78534531368072
+  z: -739.5820349896184
+  yaw: -122.72522
+  pitch: 18.299807
+afk: false

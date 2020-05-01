@@ -1,34 +1,13 @@
-[05:42:48] [User Authenticator #2/INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
-[05:42:48] [Server thread/INFO]: Kevlar[/127.0.0.1:53678] logged in with entity id 1290 at ([kevlar]-99.4767025068448, 68.0, 652.8314569726607)
-[05:43:24] [User Authenticator #2/INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
-[05:43:24] [Server thread/INFO]: s_mitty[/127.0.0.1:53688] logged in with entity id 1577 at ([kevlar]-153.69999998807907, 63.278020359769975, 522.8607186857774)
-[05:43:28] [Server thread/INFO]: Kevlar issued server command: /op s_mitty
-[05:43:31] [Server thread/INFO]: Kevlar issued server command: /op s_mitty
-[05:43:38] [Server thread/INFO]: s_mitty issued server command: /time set day
-[05:44:24] [Server thread/INFO]: s_mitty issued server command: /tp kevlar
-[05:44:52] [Server thread/INFO]: s_mitty issued server command: /tp kevlar
-[05:45:33] [Server thread/INFO]: Kevlar issued server command: /j
-[05:46:08] [Server thread/INFO]: Kevlar issued server command: /j
-[05:46:21] [Server thread/INFO]: s_mitty issued server command: /tp kevlar
-[05:46:59] [Server thread/INFO]: Kevlar issued server command: /j
-[05:47:00] [Server thread/INFO]: Kevlar issued server command: /thru
-[05:49:04] [Server thread/INFO]: Kevlar issued server command: /tp sm
-[05:49:10] [Server thread/INFO]: Kevlar issued server command: /tp s_mitty
-[05:49:24] [Server thread/INFO]: Kevlar issued server command: /warp
-[05:49:30] [Server thread/INFO]: Kevlar issued server command: /back
-[05:53:57] [Server thread/INFO]: Kevlar lost connection: Disconnected
-[05:53:57] [Thread-2/INFO]: Stopping server
-[05:53:57] [Thread-2/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[05:53:57] [Thread-2/INFO]: Saving players
-[05:53:57] [Server thread/INFO]: Kevlar left the game
-[05:53:57] [Server thread/INFO]: s_mitty lost connection: Disconnected
-[05:53:57] [Server thread/INFO]: s_mitty left the game
-[05:53:57] [Thread-2/INFO]: Saving worlds
-[05:53:57] [Thread-2/INFO]: Saving chunks for level 'kevlar'/minecraft:overworld
-[05:53:57] [Thread-2/WARN]: Exception in thread "Thread-2" java.lang.IllegalStateException: WorldSaveEvent may only be triggered synchronously.
-[05:53:57] [Thread-2/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533)
-[05:53:57] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.WorldServer.save(WorldServer.java:916)
-[05:53:57] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.saveChunks(MinecraftServer.java:688)
-[05:53:57] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:759)
-[05:53:57] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
-[05:53:57] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
+[02:33:05] [Thread-2/INFO]: Stopping server
+[02:33:06] [Thread-2/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[02:33:07] [Thread-2/INFO]: Saving players
+[02:33:07] [Thread-2/INFO]: Saving worlds
+[02:33:07] [Thread-2/INFO]: Saving chunks for level 'kevlar'/minecraft:overworld
+[02:33:07] [Thread-2/WARN]: Exception in thread "Thread-2" java.lang.IllegalStateException: WorldSaveEvent may only be triggered synchronously.
+[02:33:07] [Thread-2/WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533)
+[02:33:07] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.WorldServer.save(WorldServer.java:916)
+[02:33:07] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.saveChunks(MinecraftServer.java:688)
+[02:33:07] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:759)
+[02:33:07] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
+[02:33:07] [Thread-2/WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
+[02:33:07] [Thread-2/WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
