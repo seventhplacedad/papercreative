@@ -10221,3 +10221,356 @@ java.lang.NullPointerException: null
 [02:33:07 WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
 [02:33:07 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
 [02:33:07 WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
+*** Warning, you've not updated in a while! ***
+*** Please download a new build as per instructions from https://papermc.io/downloads ***
+System Info: Java 1.8 (OpenJDK 64-Bit Server VM 25.252-b09) Host:  Linux 4.15.0-99-generic (amd64)
+Loading libraries, please wait...
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+2020-05-01 02:40:54,113 main WARN Advanced terminal features are not available in this environment
+connect_to 127.0.0.1 port 25565: failed.
+[02:41:01 INFO]: Starting minecraft server version 1.14.4
+[02:41:01 INFO]: Loading properties
+[02:41:01 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_252]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_252]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:1.8.0_252]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:345) ~[?:1.8.0_252]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:1.8.0_252]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:1.8.0_252]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:1.8.0_252]
+	at java.io.InputStreamReader.read(InputStreamReader.java:184) ~[?:1.8.0_252]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:1.8.0_252]
+	at java.io.BufferedReader.readLine(BufferedReader.java:324) ~[?:1.8.0_252]
+	at java.io.BufferedReader.readLine(BufferedReader.java:389) ~[?:1.8.0_252]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:89) ~[patched_1.14.4.jar:git-Paper-243]
+[02:41:01 INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[02:41:02 INFO]: Server Ping Player Sample Count: 12
+[02:41:02 INFO]: Using 4 threads for Netty based IO
+[02:41:02 INFO]: Debug logging is disabled
+[02:41:02 INFO]: Default game type: CREATIVE
+[02:41:02 INFO]: Generating keypair
+[02:41:02 INFO]: Starting Minecraft server on *:25565
+[02:41:02 INFO]: Using epoll channel type
+[02:41:07 WARN]: Plugin MinecartSpeedPlus v1.13.2 does not specify an api-version.
+[02:41:07 INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[02:41:08 INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@775b8134]
+[02:41:09 INFO]: [MinecartSpeedPlus] Loading MinecartSpeedPlus v1.13.2
+[02:41:09 INFO]: [Essentials] Loading Essentials v2.17.2.0
+[02:41:09 INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.2.0
+[02:41:09 INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.2.0
+[02:41:09 INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.2.0
+[02:41:09 INFO]: [EssentialsChat] Loading EssentialsChat v2.17.2.0
+[02:41:09 INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.2.0
+[02:41:09 INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.2.0
+[02:41:09 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:41:09 INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[02:41:09 INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:41:09 INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[02:41:11 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:41:11 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:41:11 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:41:11 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:41:11 INFO]: Preparing level "kevlar"
+[02:41:11 INFO]: Reloading ResourceManager: Default, bukkit
+[02:41:18 INFO]: Loaded 6 recipes
+[02:41:18 INFO]: -------- World Settings For [kevlar] --------
+[02:41:18 INFO]: Max TNT Explosions: 100
+[02:41:18 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:41:18 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:41:18 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:41:18 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[02:41:18 INFO]: Mob Spawn Range: 8
+[02:41:18 INFO]: Experience Merge Radius: 3.0
+[02:41:18 INFO]: Cactus Growth Modifier: 100%
+[02:41:18 INFO]: Cane Growth Modifier: 100%
+[02:41:18 INFO]: Melon Growth Modifier: 100%
+[02:41:18 INFO]: Mushroom Growth Modifier: 100%
+[02:41:18 INFO]: Pumpkin Growth Modifier: 100%
+[02:41:18 INFO]: Sapling Growth Modifier: 100%
+[02:41:18 INFO]: Beetroot Growth Modifier: 100%
+[02:41:18 INFO]: Carrot Growth Modifier: 100%
+[02:41:18 INFO]: Potato Growth Modifier: 100%
+[02:41:18 INFO]: Wheat Growth Modifier: 100%
+[02:41:18 INFO]: NetherWart Growth Modifier: 100%
+[02:41:18 INFO]: Vine Growth Modifier: 100%
+[02:41:18 INFO]: Cocoa Growth Modifier: 100%
+[02:41:18 INFO]: Bamboo Growth Modifier: 100%
+[02:41:18 INFO]: SweetBerry Growth Modifier: 100%
+[02:41:18 INFO]: Kelp Growth Modifier: 100%
+[02:41:18 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:41:18 INFO]: View Distance: 12
+[02:41:18 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:41:18 INFO]: Item Despawn Rate: 6000
+[02:41:18 INFO]: Item Merge Radius: 2.5
+[02:41:18 INFO]: Arrow Despawn Rate: 1200
+[02:41:18 INFO]: Zombie Aggressive Towards Villager: true
+[02:41:18 INFO]: Nerfing mobs spawned from spawners: false
+[02:41:18 INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:41:19 INFO]: -------- World Settings For [kevlar_nether] --------
+[02:41:19 INFO]: Max TNT Explosions: 100
+[02:41:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:41:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:41:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:41:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[02:41:19 INFO]: Mob Spawn Range: 8
+[02:41:19 INFO]: Experience Merge Radius: 3.0
+[02:41:19 INFO]: Cactus Growth Modifier: 100%
+[02:41:19 INFO]: Cane Growth Modifier: 100%
+[02:41:19 INFO]: Melon Growth Modifier: 100%
+[02:41:19 INFO]: Mushroom Growth Modifier: 100%
+[02:41:19 INFO]: Pumpkin Growth Modifier: 100%
+[02:41:19 INFO]: Sapling Growth Modifier: 100%
+[02:41:19 INFO]: Beetroot Growth Modifier: 100%
+[02:41:19 INFO]: Carrot Growth Modifier: 100%
+[02:41:19 INFO]: Potato Growth Modifier: 100%
+[02:41:19 INFO]: Wheat Growth Modifier: 100%
+[02:41:19 INFO]: NetherWart Growth Modifier: 100%
+[02:41:19 INFO]: Vine Growth Modifier: 100%
+[02:41:19 INFO]: Cocoa Growth Modifier: 100%
+[02:41:19 INFO]: Bamboo Growth Modifier: 100%
+[02:41:19 INFO]: SweetBerry Growth Modifier: 100%
+[02:41:19 INFO]: Kelp Growth Modifier: 100%
+[02:41:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:41:19 INFO]: View Distance: 12
+[02:41:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:41:19 INFO]: Item Despawn Rate: 6000
+[02:41:19 INFO]: Item Merge Radius: 2.5
+[02:41:19 INFO]: Arrow Despawn Rate: 1200
+[02:41:19 INFO]: Zombie Aggressive Towards Villager: true
+[02:41:19 INFO]: Nerfing mobs spawned from spawners: false
+[02:41:19 INFO]: -------- World Settings For [kevlar_the_end] --------
+[02:41:19 INFO]: Max TNT Explosions: 100
+[02:41:19 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:41:19 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:41:19 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:41:19 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[02:41:19 INFO]: Mob Spawn Range: 8
+[02:41:19 INFO]: Experience Merge Radius: 3.0
+[02:41:19 INFO]: Cactus Growth Modifier: 100%
+[02:41:19 INFO]: Cane Growth Modifier: 100%
+[02:41:19 INFO]: Melon Growth Modifier: 100%
+[02:41:19 INFO]: Mushroom Growth Modifier: 100%
+[02:41:19 INFO]: Pumpkin Growth Modifier: 100%
+[02:41:19 INFO]: Sapling Growth Modifier: 100%
+[02:41:19 INFO]: Beetroot Growth Modifier: 100%
+[02:41:19 INFO]: Carrot Growth Modifier: 100%
+[02:41:19 INFO]: Potato Growth Modifier: 100%
+[02:41:19 INFO]: Wheat Growth Modifier: 100%
+[02:41:19 INFO]: NetherWart Growth Modifier: 100%
+[02:41:19 INFO]: Vine Growth Modifier: 100%
+[02:41:19 INFO]: Cocoa Growth Modifier: 100%
+[02:41:19 INFO]: Bamboo Growth Modifier: 100%
+[02:41:19 INFO]: SweetBerry Growth Modifier: 100%
+[02:41:19 INFO]: Kelp Growth Modifier: 100%
+[02:41:19 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:41:19 INFO]: View Distance: 12
+[02:41:19 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:41:19 INFO]: Item Despawn Rate: 6000
+[02:41:19 INFO]: Item Merge Radius: 2.5
+[02:41:19 INFO]: Arrow Despawn Rate: 1200
+[02:41:19 INFO]: Zombie Aggressive Towards Villager: true
+[02:41:19 INFO]: Nerfing mobs spawned from spawners: false
+[02:41:19 INFO]: Preparing start region for dimension 'kevlar'/minecraft:overworld
+[02:41:19 INFO]: Preparing spawn area: 0%
+[02:41:19 INFO]: Preparing spawn area: 0%
+[02:41:20 INFO]: Preparing spawn area: 27%
+[02:41:21 INFO]: Preparing spawn area: 100%
+[02:41:21 INFO]: Preparing spawn area: 100%
+[02:41:21 INFO]: Loaded 441 spawn chunks for world kevlar
+[02:41:21 INFO]: Time elapsed: 2226 ms
+[02:41:21 INFO]: Preparing start region for dimension 'kevlar_nether'/minecraft:the_nether
+[02:41:21 INFO]: Preparing spawn area: 0%
+[02:41:22 INFO]: Preparing spawn area: 100%
+[02:41:22 INFO]: Preparing spawn area: 100%
+[02:41:22 INFO]: Preparing spawn area: 100%
+[02:41:23 INFO]: Preparing spawn area: 100%
+[02:41:25 INFO]: Preparing spawn area: 100%
+[02:41:25 INFO]: Preparing spawn area: 100%
+[02:41:25 INFO]: Preparing spawn area: 100%
+[02:41:25 INFO]: Preparing spawn area: 100%
+[02:41:26 INFO]: Preparing spawn area: 100%
+[02:41:26 INFO]: Preparing spawn area: 100%
+[02:41:26 INFO]: Preparing spawn area: 100%
+[02:41:27 INFO]: Preparing spawn area: 100%
+[02:41:27 INFO]: Preparing spawn area: 100%
+[02:41:28 INFO]: Loaded 441 spawn chunks for world kevlar_nether
+[02:41:28 INFO]: Time elapsed: 6595 ms
+[02:41:28 INFO]: Preparing start region for dimension 'kevlar_the_end'/minecraft:the_end
+[02:41:28 INFO]: Preparing spawn area: 0%
+[02:41:28 INFO]: Preparing spawn area: 100%
+[02:41:29 INFO]: Preparing spawn area: 100%
+[02:41:29 INFO]: Preparing spawn area: 100%
+[02:41:30 INFO]: Preparing spawn area: 100%
+[02:41:30 INFO]: Loaded 441 spawn chunks for world kevlar_the_end
+[02:41:30 INFO]: Time elapsed: 2427 ms
+[02:41:30 INFO]: [MinecartSpeedPlus] Enabling MinecartSpeedPlus v1.13.2*
+[02:41:30 INFO]: MinecartSpeedPlus version 1.13.2 started.
+[02:41:30 INFO]: [Essentials] Enabling Essentials v2.17.2.0
+[02:41:31 INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:41:31 INFO]: [Essentials] No kits found to migrate.
+[02:41:31 INFO]: [Essentials] Starting Essentials ban format conversion
+[02:41:31 INFO]: [Essentials] Found 3 files to convert...
+[02:41:31 INFO]: [Essentials] Converted 0/3
+[02:41:31 INFO]: [Essentials] Ban format update complete.
+[02:41:31 INFO]: [Essentials] Starting usermap repair
+[02:41:31 INFO]: [Essentials] Reading: 0.00%
+[02:41:31 INFO]: [Essentials] Completed usermap repair.
+[02:41:31 INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[02:41:31 INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[02:41:31 INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[02:41:31 INFO]: [Essentials] Loaded 21018 items from items.json.
+[02:41:31 INFO]: [Essentials] Using locale en_US
+[02:41:31 INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:41:31 INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:41:31 INFO]: [Essentials] Using superperms-based permissions.
+[02:41:31 INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.2.0
+[02:41:31 INFO]: [EssentialsProtect] Continuing to enable Protect.
+[02:41:31 INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.2.0
+[02:41:31 INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.2.0
+[02:41:31 ERROR]: [EssentialsGeoIP] No license key found! Please visit https://essentialsx.cf/geoip for first time setup instructions.
+[02:41:32 ERROR]: [EssentialsGeoIP] Failed to read GeoIP database!
+java.io.FileNotFoundException: plugins/EssentialsGeoIP/GeoIP2-Country.mmdb (No such file or directory)
+	at java.io.RandomAccessFile.open0(Native Method) ~[?:1.8.0_252]
+	at java.io.RandomAccessFile.open(RandomAccessFile.java:316) ~[?:1.8.0_252]
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:243) ~[?:1.8.0_252]
+	at com.maxmind.db.BufferHolder.<init>(BufferHolder.java:19) ~[?:?]
+	at com.maxmind.db.Reader.<init>(Reader.java:116) ~[?:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:66) ~[?:?]
+	at com.maxmind.geoip2.DatabaseReader.<init>(DatabaseReader.java:54) ~[?:?]
+	at com.maxmind.geoip2.DatabaseReader$Builder.build(DatabaseReader.java:160) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.reloadConfig(EssentialsGeoIPPlayerListener.java:158) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.<init>(EssentialsGeoIPPlayerListener.java:43) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIP.onEnable(EssentialsGeoIP.java:31) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:338) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:420) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugin(CraftServer.java:467) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.enablePlugins(CraftServer.java:381) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:474) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:290) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:876) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[02:41:32 INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[02:41:32 INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.2.0
+[02:41:32 INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.2.0
+[02:41:32 INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.2.0
+[02:41:32 WARN]: [EssentialsXMPP] config broken for xmpp
+[02:41:32 INFO]: Done (21.455s)! For help, type "help"
+[02:41:32 INFO]: Timings Reset
+[04:17:02 INFO]: UUID of player catsinasippycup is 3ab72777-f4c9-3ac1-8bb8-bd236461513e
+[04:17:02 INFO]: catsinasippycup[/127.0.0.1:40300] logged in with entity id 203 at ([kevlar]131.5, 65.0, 256.5)
+[04:17:02 WARN]: [Essentials] Task #15 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[04:17:02 WARN]: [Essentials] Plugin Essentials v2.17.2.0 generated an exception while executing task 14
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.delayedJoin(EssentialsGeoIPPlayerListener.java:80) ~[?:?]
+	at com.earth2me.essentials.geoip.EssentialsGeoIPPlayerListener.lambda$onPlayerJoin$0(EssentialsGeoIPPlayerListener.java:48) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.14.4.jar:git-Paper-243]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_252]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_252]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[04:17:02 INFO]: [Essentials] Creating empty config: /home/mc/paper/plugins/Essentials/userdata/3ab72777-f4c9-3ac1-8bb8-bd236461513e.yml
+[04:17:28 INFO]: catsinasippycup lost connection: Disconnected
+[04:17:28 INFO]: catsinasippycup left the game
+[04:17:28 WARN]: [Essentials] Task #21 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[04:56:19 INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[04:56:19 INFO]: Kevlar[/192.168.0.151:51025] logged in with entity id 417 at ([kevlar]54.3949829281962, 145.45184661329418, 274.0994146094162)
+[04:56:19 WARN]: [Essentials] Task #26 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[04:56:30 INFO]: Kevlar issued server command: /time set day
+[04:58:11 INFO]: Kevlar issued server command: /j
+[04:58:54 INFO]: Kevlar issued server command: /thru
+[05:00:57 INFO]: UUID of player CrunchyCaffine is 22cdf969-3cde-38b5-bf42-29f1712cf7e7
+[05:00:57 INFO]: CrunchyCaffine[/127.0.0.1:41186] logged in with entity id 1266 at ([kevlar]-605.2354906773719, 171.74003829492094, 149.2324298996002)
+[05:00:57 WARN]: [Essentials] Task #31 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[05:00:57 INFO]: [Essentials] Creating empty config: /home/mc/paper/plugins/Essentials/userdata/22cdf969-3cde-38b5-bf42-29f1712cf7e7.yml
+[05:01:08 INFO]: Kevlar issued server command: /tp CrunchyCaffine
+[05:01:55 INFO]: Kevlar issued server command: /warp citycenter
+[05:01:56 WARN]: Kevlar moved too quickly! 625.6473607948257,-113.9063597208567,549.4662535984054
+[05:04:33 INFO]: Kevlar issued server command: /tp CrunchyCaffine
+[05:04:57 INFO]: Kevlar issued server command: /warp citycenter CrunchyCaffine
+[05:05:00 INFO]: Kevlar issued server command: /warp citycenter
+[05:05:13 INFO]: Kevlar issued server command: /thru
+[05:06:21 INFO]: Kevlar lost connection: Disconnected
+[05:06:21 INFO]: Kevlar left the game
+[05:06:21 WARN]: [Essentials] Task #34 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[05:07:40 INFO]: CrunchyCaffine lost connection: Disconnected
+[05:07:40 INFO]: CrunchyCaffine left the game
+[05:07:41 WARN]: [Essentials] Task #36 for Essentials v2.17.2.0 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-243]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098) ~[patched_1.14.4.jar:git-Paper-243]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925) ~[patched_1.14.4.jar:git-Paper-243]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_252]
+[05:07:41 INFO]: Stopping server
+[05:07:41 INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[05:07:41 INFO]: Saving players
+[05:07:41 INFO]: Saving worlds
+[05:07:41 INFO]: Saving chunks for level 'kevlar'/minecraft:overworld
+[05:07:41 WARN]: Exception in thread "Thread-2" java.lang.IllegalStateException: WorldSaveEvent may only be triggered synchronously.
+[05:07:41 WARN]: 	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:533)
+[05:07:41 WARN]: 	at net.minecraft.server.v1_14_R1.WorldServer.save(WorldServer.java:916)
+[05:07:41 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.saveChunks(MinecraftServer.java:688)
+[05:07:41 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:759)
+[05:07:41 WARN]: 	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:739)
+[05:07:41 WARN]: 	at net.minecraft.server.v1_14_R1.MinecraftServer.close(MinecraftServer.java:709)
+[05:07:41 WARN]: 	at org.bukkit.craftbukkit.v1_14_R1.util.ServerShutdownThread.run(ServerShutdownThread.java:17)
