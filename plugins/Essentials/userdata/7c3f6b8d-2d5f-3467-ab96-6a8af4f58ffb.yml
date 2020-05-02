@@ -1,0 +1,20 @@
+lastAccountName: korvallis
+timestamps:
+  login: 1588309935907
+  lastteleport: 1588312979599
+  logout: 1588313163105
+ipAddress: 127.0.0.1
+lastlocation:
+  world: kevlar
+  x: 131.69999998807907
+  y: 66.0
+  z: 250.38803171137684
+  yaw: -48.59991
+  pitch: 3.8999987
+logoutlocation:
+  world: kevlar
+  x: -124.26972962261456
+  y: 68.77934816519546
+  z: 670.3751091053451
+  yaw: 301.18503
+  pitch: 43.199917

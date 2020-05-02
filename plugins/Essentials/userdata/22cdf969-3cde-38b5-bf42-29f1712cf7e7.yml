@@ -1,19 +1,20 @@
 lastAccountName: CrunchyCaffine
 timestamps:
-  login: 1588309257451
-  logout: 1588309660833
+  login: 1588312979103
+  logout: 1588313165408
+  lastteleport: 1588313139995
 ipAddress: 127.0.0.1
 lastlocation:
   world: kevlar
-  x: -608.1201017345348
-  y: 119.56866019447223
-  z: 36.60930216584585
-  yaw: 98.39642
-  pitch: 21.899788
+  x: 97.52414365464865
+  y: 64.0
+  z: 112.67973655749097
+  yaw: 329.40027
+  pitch: 3.1501575
 logoutlocation:
   world: kevlar
-  x: -86.32401591759027
-  y: 82.0
-  z: 711.6874974493677
-  yaw: -233.26608
-  pitch: 25.500252
+  x: -124.69999998807907
+  y: 77.7622316431513
+  z: 672.6042738277955
+  yaw: 253.33327
+  pitch: 85.04995
